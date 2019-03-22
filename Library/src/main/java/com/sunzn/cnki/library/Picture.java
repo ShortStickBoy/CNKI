@@ -12,4 +12,8 @@ public class Picture {
         return ROOT + code + "/" + code + term + ".jpg";
     }
 
+    public static String getPinDeCover(String code) {
+        return "http://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/" + code + ".jpg";
+    }
+
 }
