@@ -24,8 +24,30 @@ public class Marker {
             case M6:
                 return "Concern";
             default:
-                return "";
+                return Values.EMPTY;
         }
+    }
+
+    public static String state(String value) {
+        if (value != null && value.length() > 0) {
+            switch (value) {
+                case M1:
+                    return "已勘误";
+                case M2:
+                    return "撤回";
+                case M3:
+                    return "未勘误";
+                case M4:
+                    return "撤稿";
+                case M5:
+                    return "全文替换";
+                case M6:
+                    return "关注";
+                default:
+                    return Values.EMPTY;
+            }
+        }
+        return Values.EMPTY;
     }
 
 }
