@@ -2,8 +2,13 @@ package com.sunzn.cnki.library;
 
 public class Picture {
 
+    private static final String WC_ROOT = "http://xyz.cnki.net/digest/";
     private static final String BZ_ROOT = "http://xyz.cnki.net/newspaper/";
     private static final String QK_ROOT = "http://c61.cnki.net/CJFD/big/";
+
+    public static String getDigestCover(String code) {
+        return WC_ROOT + code + ".jpg";
+    }
 
     public static String getNewsPaperCover(String code) {
         return BZ_ROOT + code + ".png";
