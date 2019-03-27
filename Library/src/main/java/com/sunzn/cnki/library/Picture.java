@@ -5,6 +5,7 @@ public class Picture {
     private static final String WC_ROOT = "http://xyz.cnki.net/digest/";
     private static final String BZ_ROOT = "http://xyz.cnki.net/newspaper/";
     private static final String QK_ROOT = "http://c61.cnki.net/CJFD/big/";
+    private static final String WJ_ROOT = "http://e.bianke.cnki.net/";
 
     public static String getDigestCover(String code) {
         return WC_ROOT + code + ".jpg";
@@ -24,6 +25,10 @@ public class Picture {
 
     public static String getJournalTermCover(String code, String year, String issue) {
         return QK_ROOT + code + "/" + code + year + issue + ".jpg";
+    }
+
+    public static String getCorpusCover(String code) {
+        return WJ_ROOT + "Home/GetCorpusPic/" + code + "?width=50&height=30";
     }
 
     public static String getPinDeCover(String code) {
