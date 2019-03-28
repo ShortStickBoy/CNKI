@@ -18,4 +18,23 @@ public class Token {
     public static final String BE004 = "BE004";     // 新刊速递 - 栏目 - 期刊
     public static final String BE005 = "BE005";     // 免费体验 - 栏目 - 期刊
 
+    public static final String GA001 = "GA001";     // 图书详情 - 详情 - 图书
+    public static final String GC001 = "GC001";     // 图书频道 - 频道 - 图书
+    public static final String GD001 = "GD001";     // 一级频道 - 频道 - 图书
+    public static final String GD002 = "GD002";     // 二级频道 - 频道 - 图书
+    public static final String GE001 = "GE001";     // 今日必读 - 栏目 - 图书
+    public static final String GE002 = "GE002";     // 新书上架 - 栏目 - 图书
+    public static final String GE003 = "GE003";     // 热门推荐 - 栏目 - 图书
+    public static final String GE004 = "GE004";     // 好书精选 - 栏目 - 图书
+    public static final String GE005 = "GE005";     // 本月畅销 - 栏目 - 图书
+    public static final String GE006 = "GE006";     // 新书人气 - 栏目 - 图书
+    public static final String GE007 = "GE007";     // 收藏榜单 - 栏目 - 图书
+    public static final String GE008 = "GE008";     // 热读榜单 - 栏目 - 图书
+
+    public static final String EA001 = "EA001";     // 文集详情 - 详情 - 文集
+    public static final String EC001 = "EC001";     // 文集频道 - 频道 - 文集
+    public static final String ED001 = "ED001";     // 一级频道 - 频道 - 文集
+
+    public static final String SM001 = "SM001";     // 系统消息 - 系统 - 系统
+
 }
