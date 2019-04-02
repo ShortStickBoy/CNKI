@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.sunzn.cnki.library.Format;
 import com.sunzn.cnki.library.Marker;
+import com.sunzn.cnki.library.Picture;
 import com.sunzn.cnki.library.Values;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         String x = Marker.M1;
         String c = Values.EMPTY;
         String ccc = Marker.INSTANCE.route("");
+        String m = Picture.INSTANCE.getCorpusCover("");
     }
 
 }
