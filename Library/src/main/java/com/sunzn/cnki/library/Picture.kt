@@ -7,32 +7,56 @@ object Picture {
     private const val QK_ROOT = "http://c61.cnki.net/CJFD/big/"
     private const val WJ_ROOT = "http://e.bianke.cnki.net/"
 
-    fun getDigestCover(code: String): String {
-        return "$WC_ROOT$code.jpg"
+    fun getDigestCover(code: String?): String {
+        return when (code) {
+            null -> Values.EMPTY
+            else -> "$WC_ROOT$code.jpg"
+        }
     }
 
-    fun getNewsPaperCover(code: String): String {
-        return "$BZ_ROOT$code.png"
+    fun getNewsPaperCover(code: String?): String {
+        return when (code) {
+            null -> Values.EMPTY
+            else -> "$BZ_ROOT$code.png"
+        }
     }
 
-    fun getJournalMainCover(code: String): String {
-        return "$QK_ROOT$code.jpg"
+    fun getJournalMainCover(code: String?): String {
+        return when (code) {
+            null -> Values.EMPTY
+            else -> "$QK_ROOT$code.jpg"
+        }
     }
 
-    fun getJournalTermCover(code: String, term: String): String {
-        return "$QK_ROOT$code/$code$term.jpg"
+    fun getJournalTermCover(code: String?, term: String?): String {
+        return when {
+            code == null -> Values.EMPTY
+            term == null -> "$QK_ROOT$code.jpg"
+            else -> "$QK_ROOT$code/$code$term.jpg"
+        }
     }
 
-    fun getJournalTermCover(code: String, year: String, issue: String): String {
-        return "$QK_ROOT$code/$code$year$issue.jpg"
+    fun getJournalTermCover(code: String?, year: String?, issue: String?): String {
+        return when {
+            code == null -> Values.EMPTY
+            year == null -> "$QK_ROOT$code.jpg"
+            issue == null -> "$QK_ROOT$code.jpg"
+            else -> "$QK_ROOT$code/$code$year$issue.jpg"
+        }
     }
 
-    fun getCorpusCover(code: String): String {
-        return WJ_ROOT + "Home/GetCorpusPic/" + code + "?width=50&height=30"
+    fun getCorpusCover(code: String?): String {
+        return when (code) {
+            null -> Values.EMPTY
+            else -> WJ_ROOT + "Home/GetCorpusPic/" + code + "?width=50&height=30"
+        }
     }
 
-    fun getPinDeCover(code: String): String {
-        return "http://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/$code.jpg"
+    fun getPinDeCover(code: String?): String {
+        return when (code) {
+            null -> Values.EMPTY
+            else -> "http://qiangguo.cnki.net/Mall/Images/Book/Cover/Big/$code.jpg"
+        }
     }
 
 }
