@@ -6,6 +6,14 @@ object Picture {
     private const val BZ_ROOT = "http://xyz.cnki.net/newspaper/"
     private const val QK_ROOT = "http://c61.cnki.net/CJFD/big/"
     private const val WJ_ROOT = "http://e.bianke.cnki.net/"
+    private const val RB_ROOT = "http://refbook.img.cnki.net/crfdpic/mid/"
+
+    fun getRefBookCover(code: String?): String {
+        return when (code) {
+            null -> Values.EMPTY
+            else -> "$RB_ROOT$code" + "fm_mid.jpg"
+        }
+    }
 
     fun getDigestCover(code: String?): String {
         return when (code) {
