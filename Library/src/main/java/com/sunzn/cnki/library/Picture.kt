@@ -7,6 +7,14 @@ object Picture {
     private const val QK_ROOT = "http://c61.cnki.net/CJFD/big/"
     private const val WJ_ROOT = "http://e.bianke.cnki.net/"
     private const val RB_ROOT = "http://refbook.img.cnki.net/crfdpic/mid/"
+    private const val CT_ROOT = "http://refbook.img.cnki.net/"
+
+    fun getEntryCover(path: String?): String {
+        return when (path) {
+            null -> Values.EMPTY
+            else -> "$CT_ROOT$path"
+        }
+    }
 
     fun getRefBookCover(code: String?): String {
         return when (code) {
