@@ -11,9 +11,9 @@ class Payment {
 
     class Channel {
         companion object {
-            const val Balance = 1        // 校验订单
-            const val Alipay = 4         // 支付订单
-            const val WeChat = 11        // 支付订单
+            const val Balance = "1"      // 校验订单
+            const val Alipay = "4"       // 支付订单
+            const val WeChat = "11"      // 支付订单
         }
     }
 
