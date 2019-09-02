@@ -17,4 +17,12 @@ class Search {
         }
     }
 
+    class HandTab {
+        companion object {
+            const val Entry = 0               // 词条搜索
+            const val Image = 1               // 图片搜索
+            const val Books = 2               // 辞典搜索
+        }
+    }
+
 }
