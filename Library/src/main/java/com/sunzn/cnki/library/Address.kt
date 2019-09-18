@@ -23,6 +23,13 @@ object Address {
     }
 
     /**
+     * 辞典-词条品读列表
+     */
+    fun getDictReadListUrl(): String {
+        return "https://wap.cnki.net/touch/node/dict/readlist"
+    }
+
+    /**
      * 分享-期刊节点
      */
     fun getJournalNodeShareUrl(code: String?): String {
