@@ -19,6 +19,7 @@ class DataUnit {
             const val KSJ0100 = "KSJ0100"  // 看-视-界
             const val SMT0100 = "SMT0100"  // 赏-美-图
             const val MKH0100 = "MKH0100"  // 名-刊-汇
+            const val PHS0100 = "PHS0100"  // 品-好-书
         }
     }
 
