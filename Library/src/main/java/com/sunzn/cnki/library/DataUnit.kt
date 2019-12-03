@@ -13,6 +13,7 @@ class DataUnit {
             const val VDV0100 = "VDV0100"  // 视频纵向
             const val ATH0100 = "ATH0100"  // 图集横向
             const val MPL0100 = "MPL0100"  // 微刊集合
+            const val MPU0100 = "MPU0100"  // 微刊推荐
             const val LBT0100 = "LBT0100"  // 轮播广告
             const val DMW0100 = "DMW0100"  // 读-美-文
             const val TJX0100 = "TJX0100"  // 听-精-选
