@@ -13,6 +13,16 @@ object Address {
     }
 
     /**
+     * 辞典-九大专题-子专题
+     */
+    fun getDictSubTopicUrl(code: String?, name: String?): String {
+        return when {
+            code.isNullOrEmpty() || name.isNullOrEmpty() -> Values.EMPTY
+            else -> "https://wap.cnki.net/touch/node/dict/topic/list?code=$code&name=$name&sm=app"
+        }
+    }
+
+    /**
      * 辞典-词条品读
      */
     fun getDictReadUrl(code: String?): String {
