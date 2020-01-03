@@ -21,6 +21,18 @@ class DataUnit {
             const val SMT0100 = "SMT0100"  // 赏-美-图
             const val MKH0100 = "MKH0100"  // 名-刊-汇
             const val PHS0100 = "PHS0100"  // 品-好-书
+            const val BJD0100 = "BJD0100"  // 书刊句典
+            const val WBD0100 = "WBD0100"  // 本周必读
+            const val WRP0100 = "WRP0100"  // 本周推荐 - 付费
+            const val WRF0100 = "WRF0100"  // 本周推荐 - 免费
+            const val NIE0100 = "NIE0100"  // 新刊速递
+            const val NBF0100 = "NBF0100"  // 新书抢鲜
+            const val BLR0100 = "BLR0100"  // 书单推荐
+            const val HBL0100 = "HBL0100"  // 热门书单
+            const val HST0100 = "HST0100"  // 热门分类
+            const val PER0100 = "PER0100"  // 期刊推荐
+            const val BKR0100 = "BKR0100"  // 图书推荐
+            const val KDH0100 = "KDH0100"  // 看-典-号
         }
     }
 
