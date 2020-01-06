@@ -22,7 +22,8 @@ class DataUnit {
             const val MKH0100 = "MKH0100"  // 名-刊-汇
             const val PHS0100 = "PHS0100"  // 品-好-书
             const val BJD0100 = "BJD0100"  // 书刊句典
-            const val WBD0100 = "WBD0100"  // 本周必读
+            const val WBD0100 = "WBD0100"  // 本周必读 - 晨读
+            const val WBD0200 = "WBD0200"  // 本周必读 - 夜读
             const val WRP0100 = "WRP0100"  // 本周推荐 - 付费
             const val WRF0100 = "WRF0100"  // 本周推荐 - 免费
             const val NIE0100 = "NIE0100"  // 新刊速递
