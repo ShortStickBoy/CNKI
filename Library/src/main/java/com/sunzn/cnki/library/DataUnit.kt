@@ -33,6 +33,8 @@ class DataUnit {
             const val HST0100 = "HST0100"  // 热门分类
             const val PER0100 = "PER0100"  // 期刊推荐
             const val BKR0100 = "BKR0100"  // 图书推荐
+            const val PER0200 = "PER0200"  // 期刊推荐 - 发现
+            const val BKR0200 = "BKR0200"  // 图书推荐 - 发现
             const val KDH0100 = "KDH0100"  // 看-典-号
         }
     }
