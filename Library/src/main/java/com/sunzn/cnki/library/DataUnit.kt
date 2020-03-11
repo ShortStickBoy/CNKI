@@ -6,12 +6,23 @@ class DataUnit {
         companion object {
             const val MDY0100 = "MDY0100"  // 每日典言
             const val MES0100 = "MES0100"  // 早晚故事
-            const val PTH0100 = "PTH0100"  // 图文横向
-            const val PTV0100 = "PTV0100"  // 图文纵向
             const val PTV0200 = "PTV0200"  // 图文双栏
+
+            const val PTH0100 = "PTH0100"  // 图文横向
+            const val PTH0200 = "PTH0200"  // 图文横向
+            const val PTV0100 = "PTV0100"  // 图文纵向
+
             const val ADH0100 = "ADH0100"  // 音频横向
+            const val ADH0200 = "ADH0200"  // 音频横向
+            const val ADV0100 = "ADV0100"  // 音频纵向
+
+            const val VDH0200 = "VDH0200"  // 视频横向
             const val VDV0100 = "VDV0100"  // 视频纵向
+
             const val ATH0100 = "ATH0100"  // 图集横向
+            const val ATH0200 = "ATH0200"  // 图集横向
+            const val ATV0100 = "ATV0100"  // 图集纵向
+
             const val MPL0100 = "MPL0100"  // 微刊集合
             const val MPU0100 = "MPU0100"  // 微刊推荐
             const val LBT0100 = "LBT0100"  // 轮播广告
