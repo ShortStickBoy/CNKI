@@ -14,6 +14,7 @@ class DataUnit {
             const val ADH0100 = "ADH0100"  // 音频横向
             const val ADV0100 = "ADV0100"  // 音频纵向
 
+            const val VDH0100 = "VDH0100"  // 视频横向
             const val VDV0100 = "VDV0100"  // 视频纵向
 
             const val ATH0100 = "ATH0100"  // 图集横向
