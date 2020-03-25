@@ -9,6 +9,7 @@ object Marker {
     const val M5 = "5"    // 全文替换
     const val M6 = "6"    // 关注
     const val M7 = "7"    // 取消关注
+    const val M8 = "8"    // 撤稿不留原文
 
     fun route(value: String): String {
         return when (value) {
@@ -19,6 +20,7 @@ object Marker {
             M5 -> "Replacement"
             M6 -> "Concern"
             M7 -> "Concel"
+            M8 -> "Retractionb"
             else -> Values.EMPTY
         }
     }
@@ -33,6 +35,7 @@ object Marker {
                 M5 -> "全文替换"
                 M6 -> "关注"
                 M7 -> "取消关注"
+                M8 -> "撤稿"
                 else -> Values.EMPTY
             }
         }
