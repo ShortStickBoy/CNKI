@@ -4,4 +4,6 @@ object Values {
 
     const val EMPTY = ""
 
+    const val BLANK = " "
+
 }
