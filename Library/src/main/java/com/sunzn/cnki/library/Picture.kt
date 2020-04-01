@@ -8,6 +8,14 @@ object Picture {
     private const val WJ_ROOT = "http://e.bianke.cnki.net/"
     private const val RB_ROOT = "http://refbook.img.cnki.net/crfdpic/mid/"
     private const val CT_ROOT = "http://refbook.img.cnki.net/"
+    private const val AB_ROOT = "http://xyz.cnki.net/crfdimages"
+
+    fun getAudioCover(path: String?): String {
+        return when (path) {
+            null -> Values.EMPTY
+            else -> "$AB_ROOT$path"
+        }
+    }
 
     fun getEntryCover(path: String?): String {
         return when (path) {
