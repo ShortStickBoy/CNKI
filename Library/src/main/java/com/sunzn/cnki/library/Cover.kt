@@ -10,11 +10,11 @@ import java.io.FileOutputStream
 object Cover {
 
     fun gainCover(context: Context, name: String): File {
-        return File(context.getDir("cover", Context.MODE_PRIVATE), name)
+        return File(context.getDir("cover", Context.MODE_PRIVATE), "$name.jpg")
     }
 
     fun saveCover(context: Context, drawable: Drawable, name: String) {
-        val file: File = File(context.getDir("cover", Context.MODE_PRIVATE), name)
+        val file: File = File(context.getDir("cover", Context.MODE_PRIVATE), "$name.jpg")
         saveCover(drawable, file, Bitmap.CompressFormat.JPEG)
     }
 
