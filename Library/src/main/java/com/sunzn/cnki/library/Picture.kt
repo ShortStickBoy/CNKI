@@ -9,6 +9,14 @@ object Picture {
     private const val RB_ROOT = "http://refbook.img.cnki.net/crfdpic/mid/"
     private const val CT_ROOT = "http://refbook.img.cnki.net/"
     private const val AB_ROOT = "http://xyz.cnki.net/crfdimages"
+    private const val AD_ROOT = "https://xyz.cnki.net/resourcev7/image/ManalPushImage/"
+
+    fun getBannerCover(id: String?): String {
+        return when (id) {
+            null -> Values.EMPTY
+            else -> "$AD_ROOT$id"
+        }
+    }
 
     fun getAudioCover(path: String?): String {
         return when (path) {
