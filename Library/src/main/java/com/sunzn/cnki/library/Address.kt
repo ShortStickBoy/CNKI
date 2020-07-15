@@ -90,7 +90,7 @@ object Address {
      * 协议-帮助中心
      */
     fun getHelpUrl(): String {
-        return "https://wap.cnki.net/client.html"
+        return "https://wap.cnki.net/client-app.html"
     }
 
 }
