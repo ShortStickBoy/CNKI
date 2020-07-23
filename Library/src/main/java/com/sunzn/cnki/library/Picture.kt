@@ -5,7 +5,7 @@ object Picture {
     private const val WC_ROOT = "http://xyz.cnki.net/digest/"
     private const val BZ_ROOT = "http://xyz.cnki.net/newspaper/"
     private const val QK_ROOT = "http://c61.cnki.net/CJFD/big/"
-    private const val WJ_ROOT = "http://e.bianke.cnki.net/"
+    private const val WJ_ROOT = "https://bianke.cnki.net/e/"
     private const val RB_ROOT = "http://refbook.img.cnki.net/crfdpic/mid/"
     private const val CT_ROOT = "http://refbook.img.cnki.net/"
     private const val AB_ROOT = "http://xyz.cnki.net/crfdimages"
