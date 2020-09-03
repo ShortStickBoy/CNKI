@@ -47,6 +47,7 @@ class DataUnit {
             const val PER0200 = "PER0200"  // 期刊推荐 - 发现
             const val BKR0200 = "BKR0200"  // 图书推荐 - 发现
             const val KDH0100 = "KDH0100"  // 看-典-号
+            const val DIC0100 = "DIC0100"  // 辞书大典
         }
     }
 
