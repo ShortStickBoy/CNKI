@@ -7,6 +7,7 @@ class DataUnit {
             const val ALU0100 = "ALU0100"  // 机构文库
             const val BKU0100 = "BKU0100"  // 机构图书
             const val PEU0100 = "PEU0100"  // 机构期刊
+            const val MPU0200 = "MPU0200"  // 机构微刊
 
             const val MDY0100 = "MDY0100"  // 每日典言
             const val MES0100 = "MES0100"  // 早晚故事
