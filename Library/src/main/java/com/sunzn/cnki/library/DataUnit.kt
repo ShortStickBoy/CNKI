@@ -4,6 +4,7 @@ class DataUnit {
 
     class DIAN {
         companion object {
+            const val MOD0100 = "MOD0100"  // 综合模块
             const val MIX0100 = "MIX0100"  // 混合内容
             const val MPU0700 = "MPU0700"  // 微刊双列
             const val LBT0200 = "LBT0200"  // 横幅广告
