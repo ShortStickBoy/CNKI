@@ -4,6 +4,10 @@ class DataUnit {
 
     class DIAN {
         companion object {
+            const val MIX0100 = "MIX0100"  // 混合内容
+            const val MPU0700 = "MPU0700"  // 微刊双列
+            const val LBT0200 = "LBT0200"  // 横幅广告
+
             const val MPU0300 = "MPU0300"  // 听-经-典
             const val MPU0400 = "MPU0400"  // 有-声-书
             const val MPU0500 = "MPU0500"  // 精-品-课
