@@ -65,6 +65,7 @@ class DataUnit {
             const val BKR0200 = "BKR0200"  // 图书推荐 - 发现
             const val KDH0100 = "KDH0100"  // 看-典-号
             const val DIC0100 = "DIC0100"  // 辞书大典
+            const val CDH0100 = "CDH0100"  // 辞典横向
         }
     }
 
